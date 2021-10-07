@@ -18,7 +18,7 @@ const realImage = styled.img `
 const Comments = styled.div`
     font-family: 'Akronim', cursive;
     width: 80%;
-    color: white;
+    color: black;
     padding: 5px;
     margin: 2px;
     background-color: pink;
