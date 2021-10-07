@@ -1,8 +1,8 @@
 import React, {useState, userEffect, useEffect } from "react";
 import "./App.css";
 import axios from 'axios';
-import Image from './components/Image'; //this doesnt currently exist as a file
-import Title from './components/Title'; //this don't currently exist as a file
+import Image from './components/Image'; //created this 
+import Title from './components/Title'; //created this
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
       </p> */}
       <h1>Nasa Photo of the Dday</h1>
       <Title title={data.title} />
-      <Image image = {data.url} />
+      <Image image = {data.url} date={data.date} explanation={data.explanation}/>
     </div>
   );
 }
